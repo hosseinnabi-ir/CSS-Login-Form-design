@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('bg.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main {
+    text-align: center;
+    color: #ffffffd5;
+    width: 350px;
+    height: 380px;
+    padding-top: 30px;
+    background: transparent;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .3),
+                inset 3px 3px 3px rgba(0, 0, 0, .2);
+}
+
+.main h1 {
+    color: #161616;
+    font-size: 34px;
+    padding-bottom: 20px;
+}
+
+form .form-control {
+    width: 220px;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    border: 1px solid #000000;
+    text-align: center;
+    font-size: 25px;
+}
+
+form .form-control input {
+    width: 165px;
+    height: 40px;
+    padding-left: 12px;
+    background: transparent;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+form .form-control i {
+    color: #262626;
+    font-size: 18px;
+}
+
+form .login {
+    cursor: pointer;
+    width: 220px;
+    height: 38px;
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background: #ff2c4f;
+    transition: .4s;
+}
+
+form .login:hover {
+    background: #dd2544;
+}
+
+.main .login-with p {
+    color: #1f1f1f;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.main .login-with span {
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    padding-top: 10px;
+    border-radius: 50%;
+    transition: all .4s;
+}
+
+.fa-facebook-f {
+    background: #0f6faa;
+}
+
+.fa-facebook-f:hover {
+    background: #0e6297;
+}
+
+.fa-instagram {
+    background: #da265c;
+}
+
+.fa-instagram:hover {
+    background: #bb1044;
+}
+
+.fa-twitter {
+    background: #1d9ff0;
+}
+
+.fa-twitter:hover {
+    background: #1a8fd8;
+}
